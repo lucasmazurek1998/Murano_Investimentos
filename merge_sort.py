@@ -26,7 +26,7 @@ def merge(lista, inicio, meio, fim):
 		else:
 			lista[i] = R[j]
 			j += 1
-		print(lista)
+
 TESTE = [9,6,2,3,7,9,2,0,4,11]
 print(TESTE)
 merge_sort(TESTE)
